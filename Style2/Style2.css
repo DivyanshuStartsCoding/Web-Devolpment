@@ -1,0 +1,17 @@
+nav a{
+    text-decoration: none;
+    color: azure;
+    padding: 20px;
+    float: left;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    overflow:hidden;
+}
+nav a:hover{
+    color: cyan;
+}
+nav a:visited{
+    color:darkorange;
+}

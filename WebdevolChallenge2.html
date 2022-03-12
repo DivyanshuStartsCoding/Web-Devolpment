@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Devolopment Challenge 2</title>
+    <style>
+        * {
+            text-align: center;
+            border-collapse: collapse;
+            box-sizing: border-box;
+        }
+        .Table {
+            overflow: hidden;
+            background-color: coral;
+            box-shadow: 10px 5px 5px rgb(15, 13, 13);
+        }
+        .box {
+            float: left;
+        }
+        #box1 {
+            background-color: rgb(122, 235, 235);
+        }
+        #box2 {
+            background-color: rgb(151, 179, 155);
+        }
+        #box3 {
+            background-color: rgb(194, 124, 33);
+        }
+        #box4 {
+            background-color: rgb(183, 170, 240);
+        }
+
+       @media screen and (min-width:1000px) {
+          .box{
+            width: 25%;
+           height: 80px;
+           font-size: 30px;
+           border: 2px solid black;
+           padding: 15px;
+          }
+        }
+       @media screen and (max-width:1000px) and (min-width:600px) {
+          .box{
+            width: 50%;
+           height: 80px;
+           font-size: 30px;
+           border: 2px solid black;
+           padding: 15px;
+          }
+        }
+       @media screen and (man-width:600px) {
+          .box{
+            width: 100%;
+           height: 80px;
+           font-size: 30px;
+           border: 2px solid black;
+           padding: 15px;
+          }
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="Table">
+        <h1>Scorecard</h1>
+        <div class="box" id="box1" >Name</div>
+        <div class="box" id="box2">Marks in Maths</div>
+        <div class="box" id="box3">Marks in Maths</div>
+        <div class="box" id="box4">Marks in Maths</div>
+        <div class="box" id="box1">Divyanshu Sankrit</div>
+        <div class="box" id="box2">95</div>
+        <div class="box" id="box3">80</div>
+        <div class="box" id="box4">74</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        font-size: 70px;
+        text-align: center;
+        display: none;
+        padding: 20px;
+      }
+      @media (max-width: 500px) {
+        #box1 {
+          display: block;
+          color: blanchedalmond;
+          background-color: coral;
+        }
+      }
+      @media (max-width: 700px) and (min-width: 501px) {
+        #box2 {
+          display: block;
+          color: rgb(202, 127, 14);
+          background-color: rgb(73, 245, 145);
+        }
+      }
+      @media (max-width: 1000px) and (min-width: 701px) {
+        #box3 {
+          display: block;
+          color: rgb(231, 59, 59);
+          background-color: rgb(207, 184, 175);
+        }
+      }
+      @media (min-width: 1001px) {
+        #box4 {
+          display: block;
+          color: rgb(33, 36, 221);
+          background-color: rgb(199, 243, 188);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" id="box1">Mai ek phone hoon</div>
+    <div class="box" id="box2">Mai ek tablet hoon</div>
+    <div class="box" id="box3">Mai ek computer hoon</div>
+    <div class="box" id="box4">Mai ek widescreen computer hoon</div>
+  </body>
+</html>
